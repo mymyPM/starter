@@ -8,7 +8,7 @@
             <?php 
             if(count($result)<1)
             {
-                echo "<center><h2>Không có BĐS nào</h2></center>"
+                echo "<div style=\"text-align: center;\"><h2>Không có BĐS nào</h2></div>";
             }
             foreach($result as $pp)
             {

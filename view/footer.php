@@ -144,7 +144,7 @@
 </script>
 <!-- //script for tesimonials carousel slider -->
 
-<script src="./js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
 <script>
   $(document).ready(function () {
     $('.popup-with-zoom-anim').magnificPopup({
