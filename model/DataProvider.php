@@ -1,7 +1,7 @@
 <?php
 	class Dataprovider{
 		private $link;//bien ket noi csdl
-		function __construct()
+		public function __construct()
 		{
 			$this->link=mysqli_connect("localhost","root","","bds");
 		}
@@ -35,9 +35,8 @@
 			$result=$this->ExecuteQuery($sql);
 			return mysqli_num_rows($result);
 		}
-		function __destruct()
+		public function __destruct()
 		{
 			mysqli_close($this->link);
 		}
 	}
-?>

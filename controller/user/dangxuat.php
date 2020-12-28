@@ -10,4 +10,3 @@ if(isset($_SESSION["userID"]))
     }
     header("location:index.php");
 }
-?>

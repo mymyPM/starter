@@ -2,8 +2,8 @@
 include_once("model/DataProvider.php");
 class Phanloai{
     private $da;
-    function __construct(){
-        $this->new DataProvider();
+    public function __construct(){
+        $this->da = new DataProvider();
     }
     function getLoaiBDS()
     {
@@ -16,4 +16,3 @@ class Phanloai{
         $this->da->Fetch($sql);
     }
 }
-?>

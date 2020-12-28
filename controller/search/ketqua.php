@@ -9,4 +9,3 @@ if(isset($_POST['btnSearch']))
     $result = $bds->search($txtword,$loaigd,$loaibds);
     include_once("view/timkiem/ketqua.php"); 
 }
-?>

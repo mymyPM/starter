@@ -7,4 +7,3 @@ if(isset($_GET["id"]))
     $result = $pop->getBDSPopular_byid($id);
     include_once("view/bds/popular_detail.php");
 }
-?>

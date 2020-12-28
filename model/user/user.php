@@ -2,7 +2,7 @@
 include_once("model/DataProvider.php");
 class Users{
     private $da;
-    function __construct(){
+    public function __construct(){
         $this->da = new DataProvider();
     }
     function Login($username,$password)
@@ -18,4 +18,3 @@ class Users{
     }
 
 }
-?>

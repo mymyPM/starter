@@ -7,4 +7,3 @@ if(isset($_GET["id"]))
     $result = $pop->getBDS_byid($id);
     include_once("view/mua/chitiet.php");
 }
-?>

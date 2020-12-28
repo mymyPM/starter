@@ -2,7 +2,7 @@
 include_once("model/DataProvider.php");
 class BDS{
     private $da;
-    function __construct(){
+    public function __construct(){
         $this->da = new DataProvider();
     }
     function getBDSPopular()
@@ -63,4 +63,3 @@ class BDS{
     }
 
 }
-?>

@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac9a608-f5b9-4d59-967b-10f0c38a0d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/bds/dangtinbds.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/bds/dangtinbds.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/bds/muabanbds.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/bds/muabanbds.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/bds/popular.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/bds/popular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/bds/popular_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/bds/popular_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/mua/chitiet.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/mua/chitiet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/mua/mua_canho.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/mua/mua_canho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/mua/mua_datnen.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/mua/mua_datnen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/mua/mua_nha.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/mua/mua_nha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/search/ketqua.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/search/ketqua.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/thue/canho.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/thue/canho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/thue/nha.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/thue/nha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user/dangky.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user/dangky.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user/dangnhap.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user/dangnhap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user/dangxuat.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user/dangxuat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/DataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/DataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bds/bds.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/bds/bds.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/phanloai.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/phanloai.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/user/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/user/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/bds/popular_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/bds/popular_detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609123077087</updated>
       <workItem from="1609123078422" duration="1230000" />
-      <workItem from="1609124526171" duration="1296000" />
+      <workItem from="1609124526171" duration="2570000" />
     </task>
     <servers />
   </component>
@@ -77,9 +94,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1609125798652" />
-    <state x="656" y="262" width="607" height="526" key="find.popup" timestamp="1609125988122">
+    <state x="656" y="262" width="607" height="526" key="find.popup" timestamp="1609127023665">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="262" width="607" height="526" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1609125988122" />
+    <state x="656" y="262" width="607" height="526" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1609127023665" />
   </component>
 </project>
