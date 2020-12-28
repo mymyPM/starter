@@ -70,15 +70,15 @@
                   <?php 
                     if(isset($_SESSION["userID"]))
                     {
+                        if ($_SESSION["groupID"] === '1') {
+                            echo "<li class=\"nav-item @@listing__active\" ><a class=\"nav-link\" href=\"admin.php\">Admin</a></li>";
+                        }
+
                         echo "<li class=\"nav-item @@listing__active\">";
                         echo    "<a class=\"nav-link\" href=\"index.php?mod=user&act=dangxuat\">Đăng xuất</a>";
                         echo "</li>";    
                     }
-                    if(($_SESSION["groupID"]==1))
-                    {
-                        
-                        echo "<li><a href=\"admin.php\">Admin</a></li>";
-                    }
+
                     else
                     {
                         echo "<li class=\"nav-item @@listing__active\">";
