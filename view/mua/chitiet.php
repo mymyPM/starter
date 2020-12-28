@@ -37,17 +37,20 @@
                         <div class="owl-blog owl-carousel owl-theme">
                             <div class="item">
                                 <div class="card">
-                                    <img src="assets/images/p1.jpg" class="img-fluid radius-image" alt="image">
+                                        <?php $patImg = "./images/";
+                                        $file = $result['hinh'];
+                                        echo '<img src="' . $patImg . $file . '">';
+                                        ?>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="card">
-                                    <img src="assets/images/p2.jpg" class="img-fluid radius-image" alt="image">
+                                    <img src="/images/p2.jpg" class="img-fluid radius-image" alt="image">
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="card">
-                                    <img src="assets/images/p3.jpg" class="img-fluid radius-image" alt="image">
+                                    <img src="/images/p3.jpg" class="img-fluid radius-image" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -84,7 +87,7 @@
                         </div>
 
                         <article class="post">
-                            <figure class="post-thumb"><img src="assets/images/l5.jpg" class="radius-image" alt="">
+                            <figure class="post-thumb"><img src="./images/l5.jpg" class="radius-image" alt="">
                             </figure>
                             <div class="text mb-0"><a href="#blog-single">Company realty
                                 </a>
@@ -103,7 +106,7 @@
                         </div>
 
                         <article class="post">
-                            <figure class="post-thumb"><img src="assets/images/l1.jpg" class="radius-image" alt="">
+                            <figure class="post-thumb"><img src="./images/l1.jpg" class="radius-image" alt="">
                             </figure>
                             <div class="text"><a href="#blog-single">Why we are the best in the business
                                 </a>
@@ -112,7 +115,7 @@
                         </article>
 
                         <article class="post">
-                            <figure class="post-thumb"><img src="assets/images/l2.jpg" class="radius-image" alt="">
+                            <figure class="post-thumb"><img src="./images/l2.jpg" class="radius-image" alt="">
                             </figure>
                             <div class="text"><a href="#blog-single">Build your next landing page.
                                 </a>
@@ -121,7 +124,7 @@
                         </article>
 
                         <article class="post">
-                            <figure class="post-thumb"><img src="assets/images/l3.jpg" class="radius-image" alt="">
+                            <figure class="post-thumb"><img src="./images/l3.jpg" class="radius-image" alt="">
                             </figure>
                             <div class="text"><a href="#blog-single">
                                     Simply the best. Better than the rest.</a>
@@ -214,20 +217,20 @@
 </section>
 
 <!-- jQuery and Bootstrap JS -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="/js/jquery-3.3.1.min.js"></script>
 
-<script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
+<script src="/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
 
 <!-- stats number counter-->
-<script src="assets/js/jquery.waypoints.min.js"></script>
-<script src="assets/js/jquery.countup.js"></script>
+<script src="/js/jquery.waypoints.min.js"></script>
+<script src="/js/jquery.countup.js"></script>
 <script>
   $('.counter').countUp();
 </script>
 <!-- //stats number counter -->
 
 <!-- owlcarousel -->
-<script src="assets/js/owl.carousel.js"></script>
+<script src="./js/owl.carousel.js"></script>
 <!-- script for blog post slider -->
 <script>
   $(document).ready(function () {
@@ -286,7 +289,7 @@
 </script>
 <!-- //script for tesimonials carousel slider -->
 
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="./js/jquery.magnific-popup.min.js"></script>
 <script>
   $(document).ready(function () {
     $('.popup-with-zoom-anim').magnificPopup({
@@ -363,7 +366,7 @@
 <!-- //MENU-JS -->
 
 <!-- bootstrap -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 
 </body>
 
