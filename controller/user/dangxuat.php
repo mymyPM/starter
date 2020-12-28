@@ -1,0 +1,13 @@
+<?php 
+if(isset($_SESSION["userID"]))
+{
+    unset($_SESSION["username"]);
+    unset($_SESSION["userID"]);
+    unset($_SESSION["groupID"]);
+    if(isset($_SESSION["cart"]))
+    {
+        unset($_SESSION["cart"]);
+    }
+    header("location:index.php");
+}
+?>
