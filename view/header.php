@@ -94,6 +94,9 @@
               <div class="top-quote mt-lg-0">
                   <a href="index.php?mod=bds&act=dangtinbds" class="btn btn-style btn-primary"><span class="fa fa-home"></span> Đăng BĐS</a>
               </div>
+              <div class="top-quote mt-lg-0">
+                  <a target="_blank" rel="noopener noreferrer" href="chat.php" class="btn btn-style btn-primary"><span class="fa fa-home"></span> Chat</a>
+              </div>
               <!--/search-right-->
               <div class="search mx-3">
                   

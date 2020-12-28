@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac9a608-f5b9-4d59-967b-10f0c38a0d51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/chat/chat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/chat/customer_room.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/chat/staff.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/mua/chitiet.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mua/chitiet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,13 +42,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/CODE/starter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Realtime-One-To-One-Chat" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -73,13 +86,33 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#SQL_Dialects/0.0.1920.1050@0.0.1920.1050" timestamp="1609125825817" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1609125798652">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1609138288258">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1609125798652" />
-    <state x="656" y="262" width="607" height="526" key="find.popup" timestamp="1609128934263">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1609138288258" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1609145225091">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="262" width="607" height="526" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1609128934263" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1609145225091" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1609145225091">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1609145225091" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1609145225091">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1609145225091" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1609145225091">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1609145225091" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1609145111407">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1609145111407" />
+    <state x="656" y="262" width="607" height="526" key="find.popup" timestamp="1609142339449">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="262" width="607" height="526" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1609142339449" />
   </component>
 </project>
